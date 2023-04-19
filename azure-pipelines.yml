@@ -7,8 +7,8 @@ trigger:
 - main
 
 pool:
-  
-  vmImage: ubuntu-latest
+  name: default
+  vmImage: windows-latest
 strategy:
   matrix:
     Python27:
